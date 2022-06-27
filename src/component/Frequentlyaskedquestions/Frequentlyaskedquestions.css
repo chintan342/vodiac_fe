@@ -1,0 +1,38 @@
+.Frequentlyaskedquestions {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.accordion .accordion-item {
+    background-color: #fff;
+    border: 0;
+    border-bottom: 1px solid #000000;
+}
+.accordion .accordion-header .accordion-button {
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.005em;
+    color: #000000;
+    padding: 35px 0 15px 0;
+}
+.accordion .accordion-item .accordion-body {
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: 0.005em;
+    color: #000000;
+    padding: 0 0 35px 0;
+}
+.accordion .accordion-button:not(.collapsed) {
+    color: inherit;
+    background-color: transparent;
+    box-shadow: none;
+}
+.accordion .accordion-button:focus {
+    z-index: 3;
+    border-color: transparent;
+    outline: 0;
+    box-shadow: none;
+}
+.accordion .accordion-button.collapsed{
+
+padding-bottom: 35px;
+}

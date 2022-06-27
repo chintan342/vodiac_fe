@@ -1,0 +1,166 @@
+.homepageBanner{
+background-image: url('../../assets/images/homepage-banner.png');
+background-size: cover;
+background-position: top center;
+min-height: 500px;
+}
+.homepageBanner h2 {
+    color: #ffffff;
+    padding: 40px 20px;
+    margin-bottom: 0;
+}
+.homepageBanner p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #ffffff;
+}
+.ContentDrivenDevelopment {
+    background-color: #EEEEEE;
+    position: relative;
+    margin-bottom: 40px;
+}
+.ContentDrivenDevelopment .MarketDeatil {
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    padding: 37px 74px;
+    position: absolute;
+    margin-bottom: 50px;
+    top: -10%;
+    left: 0;
+    right: 0;
+    width: 938px;
+    margin: 0 auto;
+}
+.ContentDrivenDevelopment .Vicon {
+    margin-right: 40px;
+    padding: 10px;
+    background-color: #000000;
+    border-radius: 100px;
+    width: 80px;
+    height: 80px;
+    line-height: 104px;
+}
+.ContentDrivenDevelopment .MarketPrice p {
+    font-size: 12px;
+    font-weight: 700;
+    color: #000000;
+    background-color: #FFDFC1;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    display: inline-block;
+    letter-spacing: 0.025em;
+}
+.ContentDrivenDevelopment .MarketPrice p.bg2{
+    background-color: #FFC1C1;
+}
+.ContentDrivenDevelopment .MarketPrice p.bg3{
+    background-color: #C1FFC7;
+}
+.ContentDrivenDevelopment .MarketPrice p.bg4{
+    background-color: #C1CFFF;
+}
+.ContentDrivenDevelopment .MarketPrice h3 {
+    font-size: 40px;
+    font-weight: 200;
+    color: #000000;
+    letter-spacing: -0.025em;
+}
+.ContentDrivenDevelopment .MarketPrice div {
+    margin-right: 40px;
+}
+.MarketDeatil .row.borderBottom {
+    border-bottom: 1px solid #D1D1D1;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.ContentDrivenDevelopment .MarketDeatil:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 22px solid transparent;
+    border-right: 22px solid transparent;
+    border-top: 30px solid #ffffff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: -30px;
+}
+.row.Vodiacoffer {
+    padding-top: 315px;
+    padding-bottom: 70px;
+}
+.Vodiacoffer p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #000000;
+    margin-top: 25px;
+}
+.Vodiacoffer p span {
+    font-weight: 600;
+}
+.Vodiacoffer h2{
+    margin-bottom: 25px;
+}
+.ContentDrivenDevelopment:after, .GlobalStatistics:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 22px solid transparent;
+    border-right: 22px solid transparent;
+    border-top: 30px solid #EEEEEE;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: -30px;
+}
+.services{
+    margin: 80px 0;
+}
+.services h3 {
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: -0.03em;
+    color: #000000;
+    margin: 25px 0;
+}
+.services p{
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    letter-spacing: -0.03em;
+    color: #000000;
+    margin-top: 25px;
+}
+.GlobalStatistics {
+    background-color: #eeeeee;
+    padding: 70px 0;
+    position: relative;
+    margin-bottom: 40px;
+}
+.GlobalStatistics div p:first-child {
+    font-size: 12px;
+    font-weight: 700;
+    color: #000000;
+    letter-spacing: 0.025em;
+    background-color: #FFDFC1;
+    padding: 5px 10px;
+}
+.GlobalStatistics div p.bg2:first-child {
+    background-color: #FFC1C1;
+}
+.GlobalStatistics div p {
+    font-size: 40px;
+    font-weight: 200;
+    letter-spacing: -0.025em;
+    color: #000000;
+    display: inline-block;
+}
+.GlobalStatistics .followers div {
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+.GlobalStatistics h2 {
+    margin-bottom: 40px;
+}
